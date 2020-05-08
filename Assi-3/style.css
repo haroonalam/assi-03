@@ -1,0 +1,176 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+li {
+    max-height: 40px;
+}
+
+.jumbotron-fluid {
+    background-color: rgb(96, 96, 236);
+    padding-bottom: 2px;
+}
+
+
+/* main-navbar */
+
+ul {
+    list-style: none;
+}
+
+.navbar-nav>.active a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.navbar-nav>.active {
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(96, 96, 236);
+    height: 40px;
+    width: 110px;
+    line-height: 40px;
+}
+
+.navbar-nav>.nav-item {
+    height: 40px;
+    width: 110px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.navbar-nav>.nav-item:hover {
+    background-color: rgb(96, 96, 236);
+    border-radius: 30px;
+}
+
+.navbar-nav>.nav-item a {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-nav>.nav-item a:hover {
+    background-color: rgb(96, 96, 236);
+    color: white !important;
+    border-radius: 30px;
+}
+
+
+/* about -- Future Projects --- Donations*/
+
+.navbar-nav>.nav-item .submenu1 .submenu1-item:hover,
+.nav-item>.submenu3 .nav-item:hover,
+.nav-item>.submenu4 .nav-item:hover {
+    background-color: rgb(96, 96, 236);
+}
+
+.navbar-nav>.nav-item .submenu1 .submenu1-item,
+.nav-item>.submenu3 .nav-item,
+.nav-item>.submenu4 .nav-item {
+    background-color: rgb(238, 238, 238);
+    text-align: left;
+    text-indent: 5px;
+    width: 150px;
+}
+
+.navbar-nav>.nav-item .submenu1 {
+    display: none;
+}
+
+.navbar-nav>.nav-item:hover .submenu1,
+.nav-item:hover>.submenu3,
+.nav-item:hover>.submenu4 {
+    display: block !important;
+}
+
+
+/* saylani services */
+
+.nav-item>.submenu2 {
+    display: none;
+}
+
+.nav-item:hover>.submenu2 {
+    display: block;
+}
+
+.submenu2>.nav-item:hover {
+    background-color: rgb(96, 96, 236);
+}
+
+.submenu2>.nav-item {
+    background-color: rgb(238, 238, 238);
+    text-align: left;
+    text-indent: 5px;
+    width: 200px;
+}
+
+
+/* saylani services*/
+
+.nav-item:hover>.submenu-one,
+.nav-item:hover>.submenu-one-one,
+.nav-item:hover>.submenu-two,
+.nav-item:hover>.submenu-three,
+.nav-item:hover>.submenu-four {
+    display: block !important;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+.nav-item>.submenu-one .nav-item:hover,
+.nav-item>.submenu-two .nav-item:hover,
+.nav-item>.submenu-three .nav-item:hover,
+.nav-item>.submenu-four .nav-item:hover {
+    background-color: rgb(96, 96, 236);
+}
+
+.nav-item>.submenu-one .nav-item,
+.nav-item>.submenu-two,
+.nav-item>.submenu-three,
+.nav-item>.submenu-four {
+    background-color: rgb(238, 238, 238);
+    border-radius: 0px;
+    text-align: left;
+    text-indent: 5px;
+    width: 200px;
+}
+
+
+/* Scroll to Top Button */
+
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.5%;
+    max-width: 70px;
+    width: 40px;
+    /* font-size: 12px; */
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100, 100, 100);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+/*On Hover Color Change*/
+
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+
+
+/* image Gallery */
+
+.thumbnail:hover {
+    box-shadow: 0px 0px 20px 10px tomato !important;
+}
